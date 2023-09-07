@@ -50,6 +50,8 @@ body{
 
 
 
+
+
 /* CSS */
 #btn {
   align-items: center;
@@ -108,4 +110,28 @@ width:100%
 .title{
   text-align: center;
 color:green;
+}
+
+
+
+/* Links inside the dropdown */
+.dropdown-content li {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content li:hover {background-color: #ddd;
+cursor: pointer;}
+
+
+
+
+
+.text-area{
+	font-size:16px;
+	font-family:Times New Roman;
+ 	
 }
