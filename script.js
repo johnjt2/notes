@@ -14,3 +14,182 @@ function myFunction() {
   
 
 }
+
+
+
+
+
+
+const txtArea = document.querySelector(".text-area");
+const dropBtn = document.querySelector(".dropbtn");
+const note = document.querySelector(".note");
+const topUp = document.querySelector(".top-up");
+const bundle = document.querySelector(".bundle");
+const paymentPending = document.querySelector(".payment-pending");
+const portIn = document.querySelector(".port-in");
+const simSwap = document.querySelector(".sim-swap");
+const agentAccess = document.querySelector(".agent-access");
+const tmAccess = document.querySelector(".tm-access");
+
+
+
+
+note.addEventListener("click", function() {
+dropBtn.innerHTML="Note"
+txtArea.innerHTML = `\\*.*/ Who was the caller? How did they pass DPA?  
+
+\\*.*/ What is the customer’s issue? 
+
+\\*.*/ Actions taken by you and info given to the customer.
+
+\\*.*/ Called from the same number: yes 
+
+\\*.*/ Outcome of the call agreed with the customer: agreed
+
+\\*.*/ Did the customer request to speak to someone else? NO
+
+\\*.*/ Did you transfer the call? NO`
+});
+
+
+
+
+topUp.addEventListener("click", function() {
+dropBtn.innerHTML="Top up Only"
+txtArea.innerHTML = `\\*.*/ Who was the caller? How did they pass DPA? 
+
+\\*.*/ What is the customer’s issue?
+top up with --  -- pounds
+register a card 
+
+\\*.*/ Actions taken by you and info given to the customer. 
+topped up with --  -- pounds 
+registered the card for the cst
+
+\\*.*/ Called from the same number: yes
+
+\\*.*/ Outcome of the call agreed with the customer: agreed
+
+\\*.*/ Did the customer request to speak to someone else? NO
+
+\\*.*/ Did you transfer the call? NO`
+});
+
+
+
+
+bundle.addEventListener("click", function() {
+dropBtn.innerHTML="Bundle"
+
+txtArea.innerHTML = `\\*.*/ Who was the caller? How did they pass DPA? 
+
+\\*.*/ What is the customer’s issue? want to add the --  -- pounds bundle and top up with --   -- pounds 
+
+\\*.*/ Actions taken by you and info given to the customer. added --   -- pounds for the cst with the  
+register card and added the --   -- pound bundle as requested  
+
+\\*.*/ Called from the same number: yes 
+
+\\*.*/ Outcome of the call agreed with the customer: agreed 
+
+\\*.*/ Did the customer request to speak to someone else? NO `
+});
+
+
+
+paymentPending.addEventListener("click", function() {
+dropBtn.innerHTML="Payment Pending"
+
+txtArea.innerHTML = `\\*.*/ Who was the caller? How did they pass DPA?  account holder OTAC   
+
+\\*.*/ What is the customer’s issue? payment pending issue 
+
+\\*.*/ Actions taken by you and info given to the customer.
+registered new card 
+Billing address:
+added -- -- pounds
+added spend limit 0:00
+advised the customer that the bundle will be added by 10:00 AM
+
+\\*.*/ Called from the same number: yes
+
+\\*.*/ Outcome of the call agreed with the customer: agreed
+
+\\*.*/ Did the customer request to speak to someone else? NO
+
+\\*.*/ Did you transfer the call? NO `
+});
+
+
+
+portIn.addEventListener("click", function() {
+dropBtn.innerHTML="Port In"
+
+txtArea.innerHTML = `\\*.*/ Who was the caller? How did they pass DPA?  account holder OTAC 
+
+\\*.*/ What is the customer’s issue?  Port in
+Pac:
+old number:
+
+\\*.*/ Actions taken by you and info given to the customer.
+ported in for the customer as requested 
+
+\\*.*/ Called from the same number: yes
+
+\\*.*/ Outcome of the call agreed with the customer: agreed
+
+\\*.*/ Did the customer request to speak to someone else? NO
+
+\\*.*/ Did you transfer the call? NO`
+});
+
+
+simSwap.addEventListener("click", function() {
+dropBtn.innerHTML="Sim Swap"
+
+txtArea.innerHTML = `- Who is the caller:
+- passed DPA via:
+- What is the customer's issue:
+- Cst wanted to keep his old number()on his new sim card ()
+- Actions taken by me: raised a sim swap request ON share point with details below
+
+DPA Passed on Both Numbers : Yes
+Reason For Sim Swap : 
+Number wants to keep : 
+ICCD for number wants to keep : 
+Temp number : 
+ICCID for temp Number :
+
+- Outcome of the call? agreed
+- Did the customer request to speak to someone else? no
+- Did you transfer the call? no`
+});
+
+
+
+
+
+agentAccess.addEventListener("click", function() {
+dropBtn.innerHTML="Agent Access"
+
+txtArea.innerHTML = `*** Agent Access *** 
+
+**Why Have You accessed the account :
+View access only
+**What actions have you taken in the account :N/A
+**What customer contact has taken place : N/A
+**What are the next actions if any: N/A.`
+});
+
+
+tmAccess.addEventListener("click", function() {
+dropBtn.innerHTML="TM Access"
+
+txtArea.innerHTML = `*** TM Access *** 
+
+**Why Have You accessed the account :
+View access only
+**What actions have you taken in the account :N/A
+**What customer contact has taken place : N/A
+**What are the next actions if any: N/A.`
+});
