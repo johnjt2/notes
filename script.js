@@ -36,19 +36,19 @@ const tmAccess = document.querySelector(".tm-access");
 
 note.addEventListener("click", function() {
 dropBtn.innerHTML="Note"
-txtArea.innerHTML = `\\*.*/ Who was the caller? How did they pass DPA?  
+txtArea.innerHTML = `- Who was the caller? How did they pass DPA?  
 
-\\*.*/ What is the customer’s issue? 
+- What is the customer’s issue? 
 
-\\*.*/ Actions taken by you and info given to the customer.
+- Actions taken by you and info given to the customer.
 
-\\*.*/ Called from the same number: yes 
+- Called from the same number: yes 
 
-\\*.*/ Outcome of the call agreed with the customer: agreed
+- Outcome of the call agreed with the customer: agreed
 
-\\*.*/ Did the customer request to speak to someone else? NO
+- Did the customer request to speak to someone else? NO
 
-\\*.*/ Did you transfer the call? NO`
+- Did you transfer the call? NO`
 });
 
 
@@ -56,23 +56,23 @@ txtArea.innerHTML = `\\*.*/ Who was the caller? How did they pass DPA?
 
 topUp.addEventListener("click", function() {
 dropBtn.innerHTML="Top up Only"
-txtArea.innerHTML = `\\*.*/ Who was the caller? How did they pass DPA? 
+txtArea.innerHTML = `- Who was the caller? How did they pass DPA? 
 
-\\*.*/ What is the customer’s issue?
+- What is the customer’s issue?
 top up with --  -- pounds
 register a card 
 
-\\*.*/ Actions taken by you and info given to the customer. 
+- Actions taken by you and info given to the customer. 
 topped up with --  -- pounds 
 registered the card for the cst
 
-\\*.*/ Called from the same number: yes
+- Called from the same number: yes
 
-\\*.*/ Outcome of the call agreed with the customer: agreed
+- Outcome of the call agreed with the customer: agreed
 
-\\*.*/ Did the customer request to speak to someone else? NO
+- Did the customer request to speak to someone else? NO
 
-\\*.*/ Did you transfer the call? NO`
+- Did you transfer the call? NO`
 });
 
 
@@ -81,18 +81,18 @@ registered the card for the cst
 bundle.addEventListener("click", function() {
 dropBtn.innerHTML="Bundle"
 
-txtArea.innerHTML = `\\*.*/ Who was the caller? How did they pass DPA? 
+txtArea.innerHTML = `- Who was the caller? How did they pass DPA? 
 
-\\*.*/ What is the customer’s issue? want to add the --  -- pounds bundle and top up with --   -- pounds 
+- What is the customer’s issue? want to add the --  -- pounds bundle and top up with --   -- pounds 
 
-\\*.*/ Actions taken by you and info given to the customer. added --   -- pounds for the cst with the  
+- Actions taken by you and info given to the customer. added --   -- pounds for the cst with the  
 register card and added the --   -- pound bundle as requested  
 
-\\*.*/ Called from the same number: yes 
+- Called from the same number: yes 
 
-\\*.*/ Outcome of the call agreed with the customer: agreed 
+- Outcome of the call agreed with the customer: agreed 
 
-\\*.*/ Did the customer request to speak to someone else? NO `
+- Did the customer request to speak to someone else? NO `
 });
 
 
@@ -100,24 +100,24 @@ register card and added the --   -- pound bundle as requested
 paymentPending.addEventListener("click", function() {
 dropBtn.innerHTML="Payment Pending"
 
-txtArea.innerHTML = `\\*.*/ Who was the caller? How did they pass DPA?  account holder OTAC   
+txtArea.innerHTML = `- Who was the caller? How did they pass DPA?  account holder OTAC   
 
-\\*.*/ What is the customer’s issue? payment pending issue 
+- What is the customer’s issue? payment pending issue 
 
-\\*.*/ Actions taken by you and info given to the customer.
+- Actions taken by you and info given to the customer.
 registered new card 
 Billing address:
 added -- -- pounds
 added spend limit 0:00
 advised the customer that the bundle will be added by 10:00 AM
 
-\\*.*/ Called from the same number: yes
+- Called from the same number: yes
 
-\\*.*/ Outcome of the call agreed with the customer: agreed
+- Outcome of the call agreed with the customer: agreed
 
-\\*.*/ Did the customer request to speak to someone else? NO
+- Did the customer request to speak to someone else? NO
 
-\\*.*/ Did you transfer the call? NO `
+- Did you transfer the call? NO `
 });
 
 
@@ -125,22 +125,22 @@ advised the customer that the bundle will be added by 10:00 AM
 portIn.addEventListener("click", function() {
 dropBtn.innerHTML="Port In"
 
-txtArea.innerHTML = `\\*.*/ Who was the caller? How did they pass DPA?  account holder OTAC 
+txtArea.innerHTML = `- Who was the caller? How did they pass DPA?  account holder OTAC 
 
-\\*.*/ What is the customer’s issue?  Port in
+- What is the customer’s issue?  Port in
 Pac:
 old number:
 
-\\*.*/ Actions taken by you and info given to the customer.
+- Actions taken by you and info given to the customer.
 ported in for the customer as requested 
 
-\\*.*/ Called from the same number: yes
+- Called from the same number: yes
 
-\\*.*/ Outcome of the call agreed with the customer: agreed
+- Outcome of the call agreed with the customer: agreed
 
-\\*.*/ Did the customer request to speak to someone else? NO
+- Did the customer request to speak to someone else? NO
 
-\\*.*/ Did you transfer the call? NO`
+- Did you transfer the call? NO`
 });
 
 
