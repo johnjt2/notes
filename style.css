@@ -155,10 +155,4 @@ html, body {
   height: 50px;
 }
 
-@media (max-width:400px) {
-  
-.wrapper {
-   
-  margin-bottom: -200px;
-}
-}
+
