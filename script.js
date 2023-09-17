@@ -27,6 +27,9 @@ const topUp = document.querySelector(".top-up");
 const bundle = document.querySelector(".bundle");
 const paymentPending = document.querySelector(".payment-pending");
 const portIn = document.querySelector(".port-in");
+const preloaded = document.querySelector(".preloaded");
+const prepaid = document.querySelector(".prepaid");
+const internetIssue = document.querySelector(".internet-issue");
 const simSwap = document.querySelector(".sim-swap");
 const agentAccess = document.querySelector(".agent-access");
 const tmAccess = document.querySelector(".tm-access");
@@ -143,6 +146,74 @@ ported in for the customer as requested
 - Did you transfer the call? NO`
 });
 
+preloaded.addEventListener("click", function() {
+dropBtn.innerHTML="Preloaded"
+
+txtArea.innerHTML = `- Who was the caller? How did they pass DPA? Account holder OTAC 
+
+- What is the customer’s issue? customer want to activate preloaded bundle 
+
+- Actions taken by you and info given to the customer.
+guided the customer through the process to activate the preloaded bundle
+raised the incorrect account to TM omnia abdelfattah to delete it 
+promised the customer with a call back to make sure that everything is sorted for him
+
+- Called from the same number: yes 
+
+- Outcome of the call agreed with the customer: agreed
+
+- Did the customer request to speak to someone else? NO
+
+- Did you transfer the call? NO`
+});
+
+
+prepaid.addEventListener("click", function() {
+dropBtn.innerHTML="Prepaid"
+
+txtArea.innerHTML = `- Who was the caller? How did they pass DPA?  Account holder OTAC 
+
+- What is the customer’s issue? customer cant activate prepaid sim card 
+
+- Actions taken by you and info given to the customer.
+
+advised the customer to send us POP to our email address
+and promised the customer with a call back again to take the reference number
+
+
+called the customer back 
+raised to TM omnial abdelfattah to be able to activate -- -- Bundle 
+Ref: 
+
+- Called from the same number: yes 
+
+- Outcome of the call agreed with the customer: agreed
+
+- Did the customer request to speak to someone else? NO
+
+- Did you transfer the call? NO`
+});
+
+internetIssue.addEventListener("click", function() {
+dropBtn.innerHTML="Internet Issue"
+
+txtArea.innerHTML = `- Who was the caller? How did they pass DPA?  Account holder OTAC 
+
+- What is the customer’s issue? internet not working abroad 
+
+\\*.*/ Actions taken by you and info given to the customer.
+guided the customer through the apn settings 
+advised the customer to restart the phone 
+promised a call back again to make sure that the internet is working 
+
+- Called from the same number: yes 
+
+- Outcome of the call agreed with the customer: agreed
+
+- Did the customer request to speak to someone else? NO
+
+- Did you transfer the call? NO`
+});
 
 simSwap.addEventListener("click", function() {
 dropBtn.innerHTML="Sim Swap"
