@@ -25,6 +25,7 @@ const dropBtn = document.querySelector(".dropbtn");
 const note = document.querySelector(".note");
 const topUp = document.querySelector(".top-up");
 const bundle = document.querySelector(".bundle");
+const missingPayment = document.querySelector(".missing-payment");
 const paymentPending = document.querySelector(".payment-pending");
 const portIn = document.querySelector(".port-in");
 const preloaded = document.querySelector(".preloaded");
@@ -98,7 +99,29 @@ register card and added the --   -- pound bundle as requested
 - Did the customer request to speak to someone else? NO `
 });
 
+missingPayment.addEventListener("click", function() {
+dropBtn.innerHTML="Missing Payment"
 
+txtArea.innerHTML = `\\*.*/ Who was the caller? How did they pass DPA?  Account holder OTAC 
+
+\\*.*/ What is the customer’s issue? Missing payment 
+
+\\*.*/ Actions taken by you and info given to the customer.
+
+ -Raised to TM omnia abdelfattah to be able to check the missing payment 
+ - we found the payment of " " with transaction id: " "
+ - advised him that the bundle will be added SLA" "
+
+
+\\*.*/ Called from the same number: yes 
+
+\\*.*/ Outcome of the call agreed with the customer: agreed
+
+\\*.*/ Did the customer request to speak to someone else? NO
+
+\\*.*/ Did you transfer the call? NO
+ `
+});
 
 paymentPending.addEventListener("click", function() {
 dropBtn.innerHTML="Payment Pending"
