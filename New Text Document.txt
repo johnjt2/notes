@@ -1,0 +1,46 @@
+- ASDA stores number : 0800 952 0101
+- our other number : 0808 006 2732 from landline
+ASDA  handsets number : 0800 479 8780 
+call us from abroad :447470022732
+
+asda.mobile@help.vodafone.co.uk
+
+------------------------Voice Mail-------------------------
+- Turn VM off : 1210
+- Turn VM on : 1211
+- VM password : 121
+- 1212 divert all calls to vm 
+- 1213 cancel all diverts 
+- extend the ringing time when receiving a call is : **61*121*10*XX#
+intervals(5-10-15-20-25-30) .
+- To get VM from a different number: +447836121121
+- to get Voicemail while you're outside the UK, kindly dial +447836121121 and use your Voicemail Pin to access it.
+
+ ------------------------PAC/STAC-------------------------
+- Stac — STAC to 65065
+- Send PAC all in capital litters to 65075
+
+ -----------------------EMAIL-------------------------
+asda.mobile@help.vodafone.co.uk
+
+ -----------------------some codes needed-------------------------
+- MYNUMBER to 2732 to know the number 
+- Cst can get his number by dialling : *#100#
+- Unlimited buns - BUN(amount)U to 2732
+- Cust can top-up via text messages : TOPUP #amount# Last 4 digits of the bank card# to 2732
+ 
+---------------------Num before ICCID/TopUp-----------------------
+- Number before the Sim ICCID : 89441                                     
+ - Number before the Top-up card : 9826026012
+
+---------------------Message Center Num----------------------
+Message center number : +447785016005
+To add the message center number in iPhone : **5005*7672*12063130004#
+
+---------------------IMEI----------------------
+*#06#
+
+ 
+- Vodafone customer service number from Vodafone numbers : 191
+- Vodafone customer service number: 0333 3040 191
+Cust can activate WiFi calling by dialling : *45# 
